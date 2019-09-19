@@ -155,6 +155,8 @@ const sty = StyleSheet.create({
     borderLeft: `5px solid ${colors.darkWhite}`,
     marginBottom: 16,
     lineHeight: 1.4,
+    fontSize: 16,
+    fontWeight: 'normal'
   },
   h1Input: {
     display: 'inline-block',
@@ -383,11 +385,11 @@ class App extends React.Component<Props, State> {
             />
           </form>
         </div>
-        <div className={css(sty.note)}>Take notes on podcasts without worrying
+        <h2 className={css(sty.note)}>Take notes on podcasts without worrying
         about missing something,
         then jump around podcasts via your notes
         <br />
-        Created by <a className={css(sty.link)}  rel="noopener noreferrer" target="_blank" href="https://twitter.com/biwills">@biwills</a> © 2019</div>
+        Created by <a className={css(sty.link)}  rel="noopener noreferrer" target="_blank" href="https://twitter.com/biwills">@biwills</a> © 2019</h2>
       <div className={css(sty.audioHolder)}>
         <div className={css(sty.audioOverlay)} onClick={() => {
           const podcast = this.getPodcast()
