@@ -173,7 +173,7 @@ const Header = () => ( <Helmet>
   <meta name="title" content="BigCursor" />
   <meta
     name="description"
-    content="It's a really big cursor. Desktop Only"
+    content="It's a really big cursor."
   />
 
   {/* <!-- Open Graph / Facebook --> */}
@@ -182,7 +182,7 @@ const Header = () => ( <Helmet>
   <meta property="og:title" content="BigCursor" />
   <meta
     property="og:description"
-    content="It's a really big cursor. Desktop Only"
+    content="It's a really big cursor."
   />
   <meta property="og:image" content={metaImage} />
 
@@ -195,7 +195,7 @@ const Header = () => ( <Helmet>
   <meta property="twitter:title" content="BigCursor" />
   <meta
     property="twitter:description"
-    content="It's a really big cursor. Desktop Only"
+    content="It's a really big cursor."
   />
   <meta property="twitter:image" content={metaImage} />
 </Helmet>)

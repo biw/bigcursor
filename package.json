@@ -5,22 +5,23 @@
   "version": "0.1.0",
   "author": "Ben Williams",
   "dependencies": {
+    "aphrodite": "^2.4.0",
     "gatsby": "^2.15.28",
     "gatsby-image": "^2.2.23",
+    "gatsby-plugin-aphrodite": "^2.0.5",
     "gatsby-plugin-manifest": "^2.2.20",
     "gatsby-plugin-offline": "^3.0.11",
     "gatsby-plugin-react-helmet": "^3.1.10",
     "gatsby-plugin-sharp": "^2.2.27",
     "gatsby-source-filesystem": "^2.1.28",
     "gatsby-transformer-sharp": "^2.2.19",
-    "prop-types": "^15.7.2",
-    "react-helmet": "^5.2.1",
-    "aphrodite": "^2.4.0",
     "ismobilejs": "^1.0.3",
     "luxon": "^1.17.3",
+    "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-csv": "^1.1.1",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "react-helmet": "^5.2.1"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
@@ -32,6 +33,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "deploy": "yarn build && gh-pages -b master -d public",
     "start": "yarn develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""

@@ -1,4 +1,7 @@
 var plugins = [{
+      plugin: require('/Users/Ben/GitHub/bigcursor/node_modules/gatsby-plugin-aphrodite/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
       plugin: require('/Users/Ben/GitHub/bigcursor/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
