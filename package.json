@@ -15,6 +15,7 @@
     "gatsby-plugin-sharp": "^2.2.27",
     "gatsby-source-filesystem": "^2.1.28",
     "gatsby-transformer-sharp": "^2.2.19",
+    "gh-pages": "^2.1.1",
     "ismobilejs": "^1.0.3",
     "luxon": "^1.17.3",
     "prop-types": "^15.7.2",
@@ -33,7 +34,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "deploy": "yarn build && gh-pages -b master -d public",
+    "deploy": "yarn build && yarn gh-pages -b master -d public",
     "start": "yarn develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
