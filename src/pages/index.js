@@ -250,7 +250,7 @@ table {
     property="twitter:description"
     content="It's a really big cursor."
   />
-  <meta property="twitter:image" content={metaImage} />
+  <meta property="twitter:image" content={`https://biwills.com${metaImage}`} />
 </Helmet>)
 
 class App extends React.Component {
