@@ -34,7 +34,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "deploy": "yarn build && yarn gh-pages -b master -d public",
+    "deploy": "yarn build --prefix-paths && yarn gh-pages -b master -d public",
     "start": "yarn develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""

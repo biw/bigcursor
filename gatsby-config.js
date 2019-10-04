@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/bigcursor`,
   plugins: [
     "gatsby-plugin-aphrodite",
     `gatsby-plugin-react-helmet`,
